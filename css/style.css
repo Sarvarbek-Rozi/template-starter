@@ -1,0 +1,208 @@
+html{
+    box-sizing:border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+    background-color:#fff;
+    color:#222;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    min-width: 1000px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* HERO */
+.hero{
+    background-image:url("../img/intro-bg.png");
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    border-bottom: 0 solid;
+}
+/* MAIN_CONTENT */
+.main-content{
+    flex-grow: 1;
+}
+
+/* SITE-HEADER */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navbar {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.site-navbar-item {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.site-navbar-item:not(:last-child){
+    padding-right: 30px;
+}
+.site-navbar-link{
+    text-decoration: none;
+    color:#333;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+.border-bottom{
+    border-bottom: 1px solid;
+    color:#666;
+}
+/* Main-content */
+.describe-freedom {
+    max-width: 490px;
+    padding-top: 140px;
+}
+.intro-heading {
+    color:#000;
+    font-family:Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.intro-heading-text {
+    color:#777;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-left: 3px solid;
+    
+}
+.intro-heading-text:not(:last-child){
+    padding-left: 40px;
+}
+.button {
+    padding:12px;
+    margin-top: 30px;
+    margin-bottom: 190px;
+    background-color:#EA625C;
+    color:#fff;
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    font-style:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .box{
+        background-image:url("../img/intro-bg@2x.png");
+
+    }
+}
